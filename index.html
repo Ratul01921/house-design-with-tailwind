@@ -23,7 +23,11 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                body: 'rgb(244, 244, 244)',
+                body2: 'rgb(255, 255, 255)',
+                primary: 'rgb(33, 33, 33)',
+                secondary: 'rgb(73, 73, 73)',
+                accent: 'rgb(171, 239, 95)',
               },
 
               fontFamily: {
@@ -35,13 +39,55 @@
       </script>
 
 </head>
-<body class="font-Manrope">
-    <header>
-        <h1>hi how are you! <br>
+<body class="font-Manrope ">
+    <header class="w-11/12 mx-auto bg-gradient-to-b from-body2 to-gray-100 py-8" >
+        <nav>
+            <div class="navbar ">
+                <div class="navbar-start">
+                  
+                
+                  <a class="btn btn-ghost text-3xl font-bold"><img class="w-6 bg-accent border rounded-lg " src="./assets/icons8-arrow-50.png"  alt="">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="font-bold"><a>Home</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-5">
+                    <div class="hidden lg:flex gap-5">
+                        <div class=" w-10 h-10 flex items-center justify-center border rounded-full bg-white">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="w-10 h-10 flex items-center justify-center border rounded-full bg-white">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                       <div>
+                        <a class="btn font-bold bg-accent ">Book Consult <img class="w-6 border rounded-lg " src="./assets/icons8-arrow-50.png" alt=""></a>
+                       </div>
+                    </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="w-10 h-10 flex items-center justify-center border rounded-full bg-white lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-5">
+                      <li class="font-bold"><a>Home</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
 
-
-            I am fine 
-        </h1>
+        </nav>
     </header>
     <main>
 
