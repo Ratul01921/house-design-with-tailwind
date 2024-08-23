@@ -27,6 +27,9 @@
                 primary: 'rgb(33, 33, 33)',
                 secondary: 'rgb(73, 73, 73)',
                 accent: 'rgb(171, 239, 95)',
+                card1: 'rgb(231, 193, 211)',
+                card2: 'rgb(239, 218, 110)',
+                card4: 'rgb(119, 170, 234)',
               },
 
               fontFamily: {
@@ -143,23 +146,30 @@
           <h2 class="text-2xl lg:text-4xl font-bold">Our Works Process</h2>
           <p class="text-base font-normal lg:font-medium  ">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
            </div>
-          <div>
-            <!-- cart 1 -->
-            <div class="card bg-base-100 w-96 shadow-xl">
-                <img class="" src="./assets/concept.png" />
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-            <!-- card 2 -->
-             <div class="bg-white border rounded-lg">
+          <div class="space-y-3 md:flex justify-center items-center gap-6 mt-8">
+            <!-- card 1 -->
+             <div class="bg-card1 border rounded-lg p-6 shadow space-y-3">
               <img src="/assets/concept.png" alt="">
-              <h3>Concept</h3>
-              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              <h3 class="text-xl font-extrabold">Concept</h3>
+              <p class="text-base font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+             </div>
+            <!-- card 2 -->
+             <div class="bg-card2 border rounded-lg p-6 space-y-3">
+              <img src="/assets/flow-chart.png" alt="">
+              <h3 class="text-xl font-extrabold">Design Process</h3>
+              <p class="text-base font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+             </div>
+            <!-- card 3 -->
+             <div class="bg-accent border rounded-lg p-6 space-y-3">
+              <img src="/assets/vision.png" alt="">
+              <h3 class="text-xl font-extrabold">Supervision</h3>
+              <p class="text-base font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+             </div>
+            <!-- card 4 -->
+             <div class="bg-card4 border rounded-lg p-6 space-y-3">
+              <img src="/assets/budget-planning.png" alt="">
+              <h3 class="text-xl font-extrabold">Budget Planning</h3>
+              <p class="text-base font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
              </div>
           </div>
         </div>
