@@ -35,6 +35,9 @@
               fontFamily: {
                 Manrope: 'Manrope',
               },
+              backgroundImage: {
+                discuss: "url('./assets/bg.jpg')",
+              },
             }
           }
         }
@@ -174,6 +177,29 @@
           </div>
         </div>
        </section>
+       <section class="space-y-4 bg-discuss">
+        <div class=" pt-8 space-y-4 flex flex-col justify-center items-center text-center">
+          <p class="shadow  bg-accent border rounded-3xl p-2 px-4 w-40 "> <i class="fa-solid fa-arrow-right"></i> Let’s Connect</p> 
+          
+          <h2 class="text-2xl lg:text-4xl font-bold">Let’s Discuss Next Project</h2>
+          <p class="text-base font-normal lg:font-medium  ">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div>
+          <div class="grid grid-cols-1 p-4 md:grid-cols-2 justify-center items-center gap-4 lg:w-8/12 mx-auto">
+            <input type="text" placeholder="First Name*" class="input input-bordered rounded-3xl " />
+            <input type="text" placeholder="Last Name*" class="input input-bordered rounded-3xl  " />
+            <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-3xl " />
+            <input type="text" placeholder="Email Number*" class="input input-bordered rounded-3xl   " />
+          </div>
+          <div class="flex justify-center items-center my-2 p-5">
+            <textarea name="" id="" cols="130" rows="8" placeholder="Write your message here" class="textarea textarea-bordered rounded-3xl " placeholder="Bio"></textarea>
+          </div>
+          <div class="flex justify-center items-center mb-6">
+            <a class="btn font-bold bg-accent text-xl text-center w-8/12 rounded-3xl ">Send Mail <img class="w-6 border rounded-lg " src="./assets/icons8-arrow-50.png" alt=""></a>
+        </div>
+            
+        </div>
+       </section>
 
     </main>
     <!-- footer section start -->
@@ -191,6 +217,7 @@
             </ul>
             <a class="btn font-bold bg-accent text-xl ">Book Consult <img class="w-6 border rounded-lg " src="./assets/icons8-arrow-50.png" alt=""></a>
           </div>
+          
           
        
         </footer>
